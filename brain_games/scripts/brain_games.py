@@ -1,2 +1,7 @@
+from brain_games.cli import welcome_user
+from brain_games.games.common import welcome
+
+
 def main():
-    print('Welcome to the Brain Games!')
+    welcome()
+    welcome_user()
